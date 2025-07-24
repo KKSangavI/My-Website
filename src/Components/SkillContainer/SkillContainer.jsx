@@ -1,7 +1,7 @@
 import React from 'react'
 import { Element } from 'react-scroll'
 import Image from "../../assets/skill.jpg"
-import Linearprogress from "@material-ui/core/Linearprogress"
+import Linearprogress from "@material-ui/core/LinearProgress"
 import "./SkillContainer.css"
 
 export const SkillContainer = () => {
