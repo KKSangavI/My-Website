@@ -6,3 +6,11 @@
     background-repeat: no-repeat;
     box-shadow:inset 0 0 0 2000px rgba(0, 0,0,0.5);
 }
+@media (max-width: 768px) {
+  .topContainer {
+    height: auto; /* Allows content to define height */
+    padding: 40px 20px;
+    background-position: top;
+    background-size: cover;
+  }
+}

@@ -53,5 +53,36 @@
 .skillcontainer__slider6>div> .MuiLinearProgress-barColorPrimary  {
     background-color:rgb(196, 13, 108) ;
 }
+@media (max-width: 768px) {
+  .skillcontainer {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .skillcontainer__text {
+    flex: 1;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .skillcontainer__text > h2 {
+    font-size: 24px;
+  }
+
+  .skillcontainer__image {
+    flex: 1;
+    margin: 20px 0 0 0;
+  }
+
+  .skillcontainer__image > img {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .skillcontainer__skillset > h5 {
+    font-size: 14px;
+  }
+}
 
 

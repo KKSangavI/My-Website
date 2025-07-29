@@ -32,4 +32,19 @@
     margin:10px ;
     border-radius:3px ;
 }
+@media (max-width: 600px) {
+  .contact__container {
+    padding: 20px;
+  }
+
+  .contact__container > p {
+    font-size: 16px;
+  }
+
+  .img1, .img2, .img3 {
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+  }
+}
 
