@@ -5,6 +5,14 @@ import "./ProjectContainer.css"
 
 const ProjectContainer = () => {
     const project =[
+         
+        {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTCPi2Cs_Flg6V7tL-QR9OOkfddsfvsO8pwA&s",
+        title:" React App with Real-World API Integration",
+        desc:" Developed a React app using a real-world API, showcasing core concepts like components, state, props, and hooks.",
+        link:" http://movie-teal-theta.vercel.app",
+        },
+
         {
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTCPi2Cs_Flg6V7tL-QR9OOkfddsfvsO8pwA&s",
         title:"WhatsApp Web UI Clone (Frontend Only)",

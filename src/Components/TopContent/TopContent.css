@@ -85,4 +85,10 @@
     margin: 10px auto;
     display: block;
   }
+  .topcontent__downloadbutton{
+    padding: 10px 70px; 
+  }
+  .topcontent__workbutton{
+    padding: 10px 80px; 
+  }
 }
